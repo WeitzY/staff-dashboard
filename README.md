@@ -15,9 +15,14 @@ Purpose-built, production-style dashboard demonstrating my Frontend/Full‑stack
 
 ### Try it live
 - Link for the dashboard: https://staff-dashboard-beryl.vercel.app/login
-- Link for the chat: https://chat-dashboard-tau-seven.vercel.app/
 - Demo account for viewing only: `resume@test.com` / `Resume123`
 - Note: Editing is intentionally restricted for this demo account (cannot change password or modify staff/hotel data). This is by design to protect the demo.
+
+### Other links
+- Link for the chat: https://chat-dashboard-tau-seven.vercel.app/
+- Link for the chat repo: https://github.com/WeitzY/chat-dashboard
+- Link for the functions repo: https://github.com/WeitzY/core-dashboard-staff 
+
 
 ### Notes and scope
 - This is a portfolio project. Some flows are simplified on purpose:
