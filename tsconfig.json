@@ -34,7 +34,7 @@
     "next-env.d.ts",
     "src",
     ".next/types/**/*.ts"
-, "src/types"  ],
+, "src/types", "src/components/admin-panel/hotel-status-section.tsx"  ],
   "exclude": [
     "node_modules"
   ]

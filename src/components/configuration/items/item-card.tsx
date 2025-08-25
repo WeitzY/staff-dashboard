@@ -14,12 +14,12 @@ interface ItemCardProps {
 export function ItemCard({ item, onEdit, onDelete, onToggleActive }: ItemCardProps) {
   return (
     <TableRow className="hover:bg-muted/50">
-      <TableCell className="font-medium">{item.item}</TableCell>
-      <TableCell className="capitalize">{item.department?.replace('_', ' ') || '—'}</TableCell>
-      <TableCell className="text-sm text-muted-foreground min-w-0">
+      <TableCell className="font-medium w-[220px] align-top">{item.item}</TableCell>
+      <TableCell className="capitalize w-[180px] align-top">{item.department?.replace('_', ' ') || '—'}</TableCell>
+      <TableCell className="text-sm text-muted-foreground min-w-0 w-[640px] align-top">
         <div className="break-words whitespace-pre-wrap">{item.description || '—'}</div>
       </TableCell>
-      <TableCell className="w-24 text-right">
+      <TableCell className="w-[96px] text-right align-top">
         <div className="flex items-center justify-end gap-1">
           {onToggleActive && (
             <Switch

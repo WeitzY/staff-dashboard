@@ -207,10 +207,10 @@ export function ItemsSection({ items, onEdit, onDelete, onCreate, onToggleActive
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead className="font-semibold">Item</TableHead>
-              <TableHead className="font-semibold">Department</TableHead>
-              <TableHead className="font-semibold">Description</TableHead>
-              <TableHead className="w-24">Actions</TableHead>
+              <TableHead className="font-semibold w-[220px]">Item</TableHead>
+              <TableHead className="font-semibold w-[180px]">Department</TableHead>
+              <TableHead className="font-semibold w-[640px]">Description</TableHead>
+              <TableHead className="w-[96px]">Actions</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>

@@ -18,9 +18,8 @@ export const requestsFetcher = async (url: string): Promise<StaffNoteWithGuest[]
   if (profileError || !staffProfile) throw new Error('Current user staff profile not found')
   const hotel_id = staffProfile.hotel_id
   
-  // Parse filters from URL
+  // Parse filters from URL (status intentionally ignored to show all)
   const urlObj = new URL(url, 'http://localhost')
-  const status = urlObj.searchParams.get('status')
   const department = urlObj.searchParams.get('department')
   
   let query = supabase
@@ -35,10 +34,7 @@ export const requestsFetcher = async (url: string): Promise<StaffNoteWithGuest[]
     .eq('hotel_id', hotel_id)
     .order('created_at', { ascending: false })
   
-  // Apply filters
-  if (status && status !== 'all') {
-    query = query.eq('status', status)
-  }
+  // Apply filters (do not filter by status to ensure all requests are visible)
   
   if (department && department !== 'all') {
     query = query.eq('department', department)

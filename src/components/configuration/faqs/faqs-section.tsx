@@ -153,9 +153,9 @@ export function FAQsSection({ faqs, onEdit, onDelete, onCreate, onToggleActive }
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead className="font-semibold">Title</TableHead>
-              <TableHead className="font-semibold">Description</TableHead>
-              <TableHead className="w-24">Actions</TableHead>
+              <TableHead className="font-semibold w-[220px]">Title</TableHead>
+              <TableHead className="font-semibold w-[720px]">Description</TableHead>
+              <TableHead className="w-[96px]">Actions</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>

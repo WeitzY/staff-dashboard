@@ -14,7 +14,8 @@ Purpose-built, production-style dashboard demonstrating my Frontend/Full‑stack
 - Dark/light theme, responsive layout, keyboard/focus states
 
 ### Try it live
-- Link: coming soon (Vercel)
+- Link for the dashboard: https://staff-dashboard-beryl.vercel.app/login
+- Link for the chat: https://chat-dashboard-tau-seven.vercel.app/
 - Demo account for viewing only: `resume@test.com` / `Resume123`
 - Note: Editing is intentionally restricted for this demo account (cannot change password or modify staff/hotel data). This is by design to protect the demo.
 

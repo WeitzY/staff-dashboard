@@ -14,13 +14,13 @@ interface FAQCardProps {
 export function FAQCard({ faq, onEdit, onDelete, onToggleActive }: FAQCardProps) {
   return (
     <TableRow className="hover:bg-muted/50">
-      <TableCell className="font-medium">{faq.title || 'Untitled'}</TableCell>
-      <TableCell className="font-medium min-w-0">
+      <TableCell className="font-medium w-[220px] align-top">{faq.title || 'Untitled'}</TableCell>
+      <TableCell className="font-medium min-w-0 w-[720px] align-top">
         <div className="break-words whitespace-pre-wrap max-w-[80ch]">
           {faq.content}
         </div>
       </TableCell>
-      <TableCell className="w-24 text-right">
+      <TableCell className="w-[96px] text-right align-top">
         <div className="flex items-center justify-end gap-1">
           {onToggleActive && (
             <Switch
