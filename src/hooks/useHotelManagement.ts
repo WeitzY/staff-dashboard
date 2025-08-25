@@ -65,8 +65,22 @@ const fetcher = async () => {
       console.error('Hotel fetch error:', error)
       throw new Error(`Failed to fetch hotel: ${error.message}`)
     }
-    
-    
+    // If no row is returned (maybeSingle), provide a safe fallback so the hook always resolves to Hotel
+    if (!hotel) {
+      return {
+        id: hotel_id,
+        name: 'Hotel',
+        slug: 'hotel',
+        owner_id: user!.id,
+        created_at: new Date().toISOString(),
+        default_language: 'en',
+        default_currency: 'USD',
+        languages: ['en'],
+        departments: ['front_desk', 'housekeeping', 'maintenance'],
+        plan: 'basic',
+      } as Hotel
+    }
+
     return hotel
   } catch (error) {
     console.error('Fetcher error:', error)
