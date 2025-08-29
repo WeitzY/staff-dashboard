@@ -1,6 +1,6 @@
 # Staff Dashboard (Portfolio)
 
-![Demo](./demo.gif)
+[![Watch the demo](https://img.youtube.com/vi/xu75WGMdmxU/maxresdefault.jpg)](https://www.youtube.com/watch?v=xu75WGMdmxU)
 
 👉 **[🌐 Staff Dashboard Live](https://staff-dashboard-beryl.vercel.app/login)**
 
