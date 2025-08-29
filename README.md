@@ -1,5 +1,7 @@
 # Staff Dashboard (Portfolio)
 
+![Demo GIF](assets/demo.gif)
+
 👉 **[🌐 Staff Dashboard Live](https://staff-dashboard-beryl.vercel.app/login)**
 
 Demo account: `resume@test.com` / `Resume123` *(read-only — editing disabled)*
