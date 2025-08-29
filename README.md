@@ -1,12 +1,14 @@
 # Staff Dashboard (Portfolio)
 
-👉 **[🌐 Live Demo Dashboard](https://staff-dashboard-beryl.vercel.app/login)**
-Demo account: `resume@test.com` / `Resume123`
-*(read-only – editing disabled to protect demo data)*
+👉 **[🌐 Staff Dashboard Live](https://staff-dashboard-beryl.vercel.app/login)**
 
-👉 **[💬 Live Guest Chat](https://chat-dashboard-tau-seven.vercel.app/)**
+Demo account: `resume@test.com` / `Resume123` *(read-only — editing disabled)*
 
-👉 **[📂 Chat Repo](https://github.com/WeitzY/chat-dashboard)** | **[📂 Functions Repo](https://github.com/WeitzY/core-dashboard-staff)**
+👉 **[💬 Guest Chat Live](https://chat-dashboard-tau-seven.vercel.app/)**
+
+👉 **[📂 Staff Dashboard Repo](https://github.com/WeitzY/staff-dashboard)**
+👉 **[📂 Guest Chat Repo](https://github.com/WeitzY/chat-dashboard)**
+👉 **[📂 Core Functions Repo](https://github.com/WeitzY/core-dashboard-staff)**
 
 ---
 
