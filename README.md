@@ -1,6 +1,6 @@
 # Staff Dashboard (Portfolio)
 
-![Demo GIF](demo.gif)
+![Demo](./demo.gif)
 
 👉 **[🌐 Staff Dashboard Live](https://staff-dashboard-beryl.vercel.app/login)**
 
