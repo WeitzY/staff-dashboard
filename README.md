@@ -1,40 +1,55 @@
 # Staff Dashboard (Portfolio)
 
-Purpose-built, production-style dashboard demonstrating my Frontend/Full‑stack skills with a focus on UX, real‑time data, and clean architecture.
+👉 **[🌐 Live Demo Dashboard](https://staff-dashboard-beryl.vercel.app/login)**
+Demo account: `resume@test.com` / `Resume123`
+*(read-only – editing disabled to protect demo data)*
 
-### What this showcases
-- **Modern stack**: Next.js App Router, React 19, Tailwind v4, Shadcn/UI, SWR
-- **Supabase**: Auth, Postgres, and Realtime for instant updates
-- **Real-time requests**: Staff see new guest requests immediately and can update status
-- **Role-aware UI**: Basic staff/admin capabilities and guarded routes
-- **Simplified AI flow**: Guest message → AI answers from FAQs/items and (if relevant) creates a request. Each message is stateless by design.
+👉 **[💬 Live Guest Chat](https://chat-dashboard-tau-seven.vercel.app/)**
 
-### Live + Tech
-- Built for Vercel deployment, single-region Supabase
-- Dark/light theme, responsive layout, keyboard/focus states
+👉 **[📂 Chat Repo](https://github.com/WeitzY/chat-dashboard)** | **[📂 Functions Repo](https://github.com/WeitzY/core-dashboard-staff)**
 
-### Try it live
-- Link for the dashboard: https://staff-dashboard-beryl.vercel.app/login
-- Demo account for viewing only: `resume@test.com` / `Resume123`
-- Note: Editing is intentionally restricted for this demo account (cannot change password or modify staff/hotel data). This is by design to protect the demo.
+---
 
-### Other links
-- Link for the chat: https://chat-dashboard-tau-seven.vercel.app/
-- Link for the chat repo: https://github.com/WeitzY/chat-dashboard
-- Link for the functions repo: https://github.com/WeitzY/core-dashboard-staff 
+## About
 
+Production-style staff dashboard demonstrating my **Frontend / Full-stack** skills with a focus on **UX, real-time data, and clean architecture**.
 
-### Notes and scope
-- This is a portfolio project. Some flows are simplified on purpose:
-  - Conversation is stateless per message (no long history/context)
-  - Email confirmation is skipped in demo sign‑up flows
-- Mobile is solid but not pixel‑perfect on all screens
+---
 
-### Structure
-- `src/app` App Router pages, route layouts, global styles
-- `src/components` Feature and UI components (shadcn/ui based)
-- `src/hooks` Data/feature hooks (SWR + Supabase)
-- `src/services` Request create/update helpers
-- `src/lib/supabase` Browser/server clients and types
+## What this showcases
 
-For deeper implementation context for AI tools, see `staff-dashboard.md`.
+* **Modern stack**: Next.js App Router, React 19, Tailwind v4, Shadcn/UI, SWR
+* **Supabase**: Auth, Postgres, and Realtime for instant updates
+* **Real-time requests**: Staff see new guest requests immediately and can update status
+* **Role-aware UI**: Basic staff/admin capabilities with guarded routes
+* **Simplified AI flow**: Guest message → AI answers from FAQs/items and, if relevant, creates a request (stateless per message)
+
+---
+
+## Tech highlights
+
+* Built for **Vercel deployment**, single-region Supabase
+* Dark/light theme, responsive layout, keyboard/focus states
+
+---
+
+## Notes & scope
+
+* Portfolio project – some flows intentionally simplified:
+  * Conversation stateless per message (no long history/context)
+  * Email confirmation skipped in demo sign-up flows
+* Mobile responsive (solid but not pixel-perfect on all screens)
+
+---
+
+## Structure
+
+```
+src/app         → App Router pages, layouts, global styles
+src/components  → Feature & UI components (shadcn/ui based)
+src/hooks       → Data/feature hooks (SWR + Supabase)
+src/services    → Request create/update helpers
+src/lib/supabase → Browser/server clients & types
+```
+
+For deeper AI implementation context → see `staff-dashboard.md`.
